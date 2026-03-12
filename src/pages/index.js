@@ -19,20 +19,36 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <section id="home">
-          <h2>Welcome</h2>
-          <p>This is my first custom page built with Next.js.</p>
+
+        {/* HERO SECTION */}
+        <section className={styles.section}>
+          <p>Brand Story</p>
+
+          <h1>
+            We let agencis focus on creative work, while we take full responsibility for building painless web solutions
+          </h1>
         </section>
 
-        <section id="about">
-          <h2>About Me</h2>
-          <p>I’m learning front-end development step by step — HTML, CSS, and JavaScript in real projects.</p>
-        </section>
+        {/* THE WHY SECTION */}
 
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>Find me at: <strong>myemail@example.com</strong></p>
-        </section>
+      <section className={styles.section}>
+        <p>The Why, How and What</p>
+
+        <h2>Our Vision (The Why)</h2>
+        <p>Our vision is to estabilish long-term partnerships with Eurpoe's best creative agencies and felived them painless web solutions.</p>
+
+        <h2>Our Mission (The How)</h2>
+        <p>By delivering stable, fast, future-proof web solutions that are raising productivity and lowering core problems for our partners.</p>
+
+        <h2>Our business (The What)</h2>
+        <p>CamelWeb provides advanced technological web development solutions trough partnerships withn European creative agencies.</p>
+
+
+
+
+
+      </section>
+
       </main>
 
       <footer className={styles.footer}>
