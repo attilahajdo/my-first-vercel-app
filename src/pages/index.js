@@ -18,34 +18,68 @@ export default function Home() {
         </nav>
       </header>
 
+      {/* HERO SECTION */}
+        <section className={`${styles.section} ${styles.hero}`}>
+          <div className={styles.heroInner}>
+            <p className={styles.heroLabel}>Brand Story</p>
+
+            <h1 className={styles.heroTitle}>
+              We let agencis focus on creative work, while we take full responsibility for building painless web solutions.
+            </h1>
+            <span className={styles.heroArrow}>↓</span>
+          </div>
+        </section>
+
       <main className={styles.main}>
 
-        {/* HERO SECTION */}
-        <section className={styles.section}>
-          <p>Brand Story</p>
-
-          <h1>
-            We let agencis focus on creative work, while we take full responsibility for building painless web solutions
-          </h1>
-        </section>
+        
 
         {/* THE WHY SECTION */}
 
       <section className={styles.section}>
-        <p>The Why, How and What</p>
+        <p className={styles.sectionLabel}>The Why, How and What</p>
 
-        <h2>Our Vision (The Why)</h2>
-        <p>Our vision is to estabilish long-term partnerships with Eurpoe's best creative agencies and felived them painless web solutions.</p>
+        <div className={styles.columns}>
+          <div className={styles.columnBlock}>
+            <h2>Our Vision (The Why)</h2>
+            <p>Our vision is to estabilish long-term partnerships with Eurpoe's best creative agencies and felived them painless web solutions.</p>
+          </div>
+          <div className={styles.columnBlock}>
+            <h2>Our Mission (The How)</h2>
+            <p>By delivering stable, fast, future-proof web solutions that are raising productivity and lowering core problems for our partners.</p>
+          </div>
+          <div className={styles.columnBlock}>
+            <h2>Our business (The What)</h2>
+            <p>CamelWeb provides advanced technological web development solutions trough partnerships withn European creative agencies.</p>
+          </div>
 
-        <h2>Our Mission (The How)</h2>
-        <p>By delivering stable, fast, future-proof web solutions that are raising productivity and lowering core problems for our partners.</p>
+          
+        </div>
 
-        <h2>Our business (The What)</h2>
-        <p>CamelWeb provides advanced technological web development solutions trough partnerships withn European creative agencies.</p>
+        
+      </section>
 
+      {/* THE WORK PHILOSOPHY SECTION */}
 
+      <section className={styles.section}>
+        <p>Work Philosophy</p>
 
+        <p>
+          We work smart. We know when there is no need to reinvent the wheel and when we have to innovate. We develop hi-tech elements for modular web echnology,
+          and we call this web DNA. We let agencies focus on creative work and take full responsibility for building faster, better, modern web solutions.
+        </p>
+      </section>
 
+      {/* NEXT SECTION */}
+
+      <section className={styles.section}>
+
+        <p>Next</p>
+
+        <div>
+          <h2>Brand Positioning</h2>
+          <span>→</span>
+        </div>
 
       </section>
 

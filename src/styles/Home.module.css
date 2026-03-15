@@ -1,8 +1,12 @@
+
+/* === HEADER === */
 .header{
   background-color: lightblue;
   padding: 20px;
   text-align: center;
 }
+
+/* === MAIN LAYOUT === */
 
 .main{
   max-width: 800px;
@@ -10,12 +14,78 @@
   padding: 20px;
 }
 
+/* === HERO SECTION === */
+
+.hero{
+  background-color: #EF582B;
+  padding: 195px 0;
+  position: relative;
+}
+
+.heroInner{
+  max-width: 1032px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroLabel{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.heroTitle{
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+
+.heroArrow{
+  position: absolute;
+  bottom: 78px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* === FOOTER === */
+
 .footer{
   background-color: lightgrey;
   padding: 15px;
   text-align: center;
 }
 
+/* === GENERIC SECTION SPACING === */
+
 .section{
   margin-bottom: 40px;
+}
+
+
+/* === THE WHY, HOW and WHAT section === */
+
+.sectionLabel{
+  margin-bottom: 30px;
+}
+
+/* === VISION / MISSION / BUSINESS columns === */
+
+.columns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .columns{
+    grid-template-columns: 1fr;
+  }
+}
+
+.columnBlock{
+  padding: 10px;
 }
