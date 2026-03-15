@@ -9,20 +9,28 @@ export default function Home() {
         <meta name="description" content="Learning front-end development step by step" />
       </Head>
 
+      {/* HEADER */}
+
       <header className={styles.header}>
-        <h1>Attila’s First Website 🚀</h1>
-        <nav>
-          <a href="#home">Home</a> | 
-          <a href="#about">About</a> | 
-          <a href="#contact">Contact</a>
-        </nav>
+        <div className={styles.headerInner}>
+          <div className={styles.logo}>
+            <img src="/images/logo.svg" alt="CamelWeb logo" />
+          </div>
+          <nav className={styles.navigation}>
+            <div className={styles.hamburger}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </div>      
       </header>
 
       {/* HERO SECTION */}
         <section className={`${styles.section} ${styles.hero}`}>
+          
           <div className={styles.heroInner}>
             <p className={styles.heroLabel}>Brand Story</p>
-
             <h1 className={styles.heroTitle}>
               We let agencis focus on creative work, while we take full responsibility for building painless web solutions.
             </h1>

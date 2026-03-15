@@ -1,9 +1,9 @@
 
 /* === HEADER === */
 .header{
-  background-color: lightblue;
-  padding: 20px;
-  text-align: center;
+  padding: 32px 60px;
+  height: 82px;
+  background-color: #EF582B;
 }
 
 /* === MAIN LAYOUT === */
@@ -18,14 +18,15 @@
 
 .hero{
   background-color: #EF582B;
-  padding: 195px 0;
   position: relative;
+  padding-bottom: 194px;
 }
 
 .heroInner{
   max-width: 1032px;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
+  padding-top: 112px;
 }
 
 .heroLabel{
